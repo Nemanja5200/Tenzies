@@ -1,27 +1,24 @@
-
-.header-container{
-    width: 35vw;  /* 40% of viewport width */
-    height: 25vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    gap: 5px;
-
+.header-container {
+  width: 35vw; /* 40% of viewport width */
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 5px;
 }
 
-
-.header-container h1{
-    font-family: Karla, sans-serif;
-    font-weight: 700;
-    font-size: 2.5rem;
+.header-container h1 {
+  font-family: Karla, sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 
-.header-container p{
-    font-family: Inter,sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    letter-spacing: 0.04rem;
-    color:#4A4E74;
+.header-container p {
+  font-family: Inter, sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  letter-spacing: 0.04rem;
+  color: #4a4e74;
 }

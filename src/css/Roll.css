@@ -1,21 +1,20 @@
-.roll-container{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.roll-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-
-.roll-container button{
-    min-width: 130px;
-    min-height: 55px;
-    font-family: Karla,sans-serif;
-    font-weight: 700;
-    font-size: 1.5rem;
-    background-color: #5035FF;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.2s ease-in-out;
+.roll-container button {
+  min-width: 130px;
+  min-height: 55px;
+  font-family: Karla, sans-serif;
+  font-weight: 700;
+  font-size: 1.5rem;
+  background-color: #5035ff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
 }
