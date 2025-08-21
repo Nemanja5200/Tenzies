@@ -1,0 +1,9 @@
+
+
+.dice-section {
+    display: grid;
+    grid-template-columns: repeat(5, 70px);
+    gap: 40px;
+    justify-content: center;
+    align-items: center;
+}

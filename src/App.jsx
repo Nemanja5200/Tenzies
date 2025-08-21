@@ -1,6 +1,7 @@
 
 import {Header} from "./components/Header.jsx";
 import './App.css';
+import {DiceSection} from "./components/DiceSection.jsx";
 function App() {
 
   return (
@@ -8,6 +9,7 @@ function App() {
 
       <div className="main-container">
         <Header/>
+          <DiceSection/>
       </div>
 
 
