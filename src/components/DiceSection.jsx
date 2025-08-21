@@ -30,12 +30,12 @@ export const DiceSection = () => {
         ))}
       </div>
 
-      {hasWon && (
+      {hasWon ?(
         <Confetti
           width={windowDimension.width}
           height={windowDimension.height}
         />
-      )}
+      ):null}
 
       <Roll onClick={handleButtonClick} hasWon={hasWon} />
     </>
